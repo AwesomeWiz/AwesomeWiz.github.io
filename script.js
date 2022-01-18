@@ -96,4 +96,9 @@ function openForm() {
   // Start the animation.
   animate();
   
-  
+function get_values(){
+    namev=document.getElementsByTagName("input")[0].value
+    classv=document.getElementsByTagName("input")[1].value
+    divisonv=document.getElementsByTagName("input")[2].value
+    rollnov=document.getElementsByTagName("input")[3].value
+}  

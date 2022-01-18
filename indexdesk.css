@@ -152,7 +152,7 @@ transition-delay: 0s;
         font-family: 'Montserrat', sans-serif;
         font-size: 1.25rem;
         font-weight: 700;
-        animation: fade 2s 1 forwards linear;
+        animation: fade 3s 1 forwards linear;
     }
 
     @keyframes fade {
