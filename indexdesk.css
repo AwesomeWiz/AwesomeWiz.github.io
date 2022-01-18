@@ -1,0 +1,209 @@
+#container { 
+	position: fixed;
+    top: 34vh;
+	margin: auto;
+	width: 100vw;
+	height: 80pt;
+	filter: url(#threshold) blur(0.6px);
+}
+ 
+
+#text1, #text2 {
+  position: fixed;
+  color: #2e2e2e;
+	width: 100%;
+	display: inline-block;
+	font-size: 10.5rem;
+	text-align: center;
+  font-family: 'Rufina', serif;
+	user-select: none;
+}
+
+#btn{
+  position: fixed;
+  bottom: 2%;
+  left: 37%;
+}
+.formheading{
+  font-weight: 1000;
+  font-size: 2.188rem;
+}
+
+.close{
+  font-size: 1.563rem;
+  cursor: pointer;
+  position: fixed;
+  top:0%;
+  right:3%;
+}
+
+     
+    .form{
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 60%;
+    transform: translate(-80%,-55%);
+    z-index: 9;
+  }
+
+  .form-container {
+    max-width: 62.5rem;
+    max-height: 59.375rem;
+    padding: 4.063rem;
+    font-family: 'Montserrat', sans-serif;
+    color: #202121;
+    background: rgba(255, 255, 255, 0.17);
+border-radius: 1rem;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(8px);
+-webkit-backdrop-filter: blur(8px);
+border: 0.063rem solid rgba(255, 255, 255, 0.3);
+  }
+
+  .form-container input[type=text] {
+   font-size: 1.25rem;
+   font-family: 'Montserrat', sans-serif;
+    color: #171818;
+    font-weight: 1000;
+    width: 80%;
+    padding: 0.625rem;
+    margin: 0.513rem 0 1.575rem 0;
+    background: transparent;
+    border-radius: 0.25rem;
+    border-bottom: solid 0.125rem #202121;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+  }
+
+  .register{
+    background-color: transparent;
+    color: #202121;
+    border: none;
+    padding: 0.938rem 2rem;
+    font-family: 'Rufina', serif;
+    font-size: 1.563rem;
+    font-weight: bold;
+    position: absolute;
+    left: 44%;
+    bottom: 30px;
+    cursor: pointer;
+}
+button::before, button::after{
+content:"";
+width: 0;
+height: 2px;
+position: absolute;
+transition: all 0.2s linear;
+background: #202121;
+}
+button:hover::before, button:hover::after{
+width: 100%;
+}
+span::before, span::after{
+content:"";
+width:2px;
+height:0;
+position: absolute;
+transition: all 0.2s linear;
+background: #202121;
+}
+button:hover span::before, button:hover span::after{
+height: 100%;
+}
+.register::before, .register::after{
+transition-delay: 0s;
+}
+.register span::before, .register span::after{
+transition-delay: 0.2s;
+}
+.register::before{
+right: 0;
+top: 0;
+}
+.register::after{
+left: 0;
+bottom: 0;
+}
+.register span::before{
+left: 0;
+top: 0;
+}
+.register span::after{
+right: 0;
+bottom: 0;
+}
+.register:hover::before, .register:hover::after{
+transition-delay: 0.2s;
+}
+.register:hover span::before, .register:hover span::after{
+transition-delay: 0s;
+}
+
+
+    .intro{
+         position: fixed;
+        top: 65%;
+        left: 5px;
+        text-align: center;
+        color: #202121;
+        letter-spacing: 0.313rem;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1.25rem;
+        font-weight: 700;
+        animation: fade 2s 1 forwards linear;
+    }
+
+    @keyframes fade {
+      from {
+        opacity: 0;
+      }
+      to{
+        opacity: 1;
+      }
+    }
+
+    .school{
+        position: fixed;
+        top: 20%;
+        left: 30%;
+        color: #202121;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 2rem;
+        font-weight: 1000;
+    }
+  
+    .logotext{
+        color: #202121;
+        position: fixed;
+        top: 4%;
+        font-family: 'Rufina', serif;
+        margin-left: 3em;
+    }
+
+    .logo{
+        width: 80px;
+        height: 50px;
+        position: fixed;
+        top: 5%;
+        left: 0.5%;
+        filter: contrast(0%) brightness(30%);
+    }
+
+    #myVideo {
+        filter: grayscale(100%) blur(10px);
+        position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+body{
+  overflow: hidden;
+}

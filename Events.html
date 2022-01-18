@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Svaasthy</title>
+        <link rel="icon" type="image/x-icon" href="logo.png">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Rufina:wght@700&display=swap" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+
+    <body>
+
+        <!--Logo-->
+        <img class="logo" src="logo.png" alt="Logo">
+        <h2 class="logotext">Svaasthy</h2>
+        <!---->
+
+        <!--Line-->
+        <div class="line"></div>
+        <!---->
+
+        <!--Mini nav-->
+        <a href="#race"><img id="zoom" class="racelogo" src="race.png" alt="race"></a>
+        <a href="#relay"><img id="zoom" class="relaylogo" src="relay.png" alt="relay"></a>
+        <a href="#longjump"><img id="zoom" class="longjumplogo" src="longjump.png" alt="long jump"></a>
+        <a href="#highjump"><img id="zoom" class="highjumplogo" src="highjump.png" alt="high jump"></a>
+        <a href="#football"><img id="zoom" class="footballlogo" src="football.png" alt="football"></a>
+        <a href="#basketball"><img id="zoom" class="basketballlogo" src="basketball.png" alt="basketball"></a>
+        <!---->
+
+        <!--You Selected-->
+        <div class="youselected"></div>
+            <h1 class="youhead">You Selected</h1>
+        <!---->
+
+
+        <script>
+            function transform() {
+                document.getElementById("rect").style.animation="transform 1s 1 ease-in forwards";
+            }
+
+
+        </script>
+
+    </body>
+
+</html>
+
+<style>
+
+.youselected{
+    position: fixed;
+    top: 25%;
+    left: 0;
+    width: 273px;
+    height: 100%;
+    border-radius: 5px;
+background: #FFFFFF;
+box-shadow: inset -19px 19px 42px #bababa,
+            inset 19px -19px 42px #ffffff;
+}
+.youhead {
+    color: #202121;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+        font-weight: bolder;
+        position: fixed;
+        top: 27%;
+        left: 35px;
+}
+
+.racelogo{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 15%;
+    left: 38%;
+}
+.relaylogo{
+    width: 70px;
+    height: 50px;
+    position: absolute;
+    top: 15%;
+    left: 46%;
+}
+.longjumplogo{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 15%;
+    left: 55%;
+}
+.highjumplogo{
+    width: 70px;
+    height: 50px;
+    position: absolute;
+    top: 15%;
+    left: 63%;
+}
+.footballlogo{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 15%;
+    left: 71%;
+}
+.basketballlogo{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 15%;
+    left: 79%;
+}
+#zoom{
+    transform: scale(.8);
+    transition: .4s;
+}
+#zoom:hover{
+    transform: scale(1);
+}
+
+.line{
+    width: 80%;
+    height: 2px;
+    background: #202121;
+    position: absolute;
+    top: 25%;
+    right: 0;
+}
+
+.logotext{
+        color: #202121;
+        position: fixed;
+        top: 4%;
+        left: 5.5%;
+        font-family: 'Rufina', serif;
+    }
+
+    .logo{
+        width: 80px;
+        height: 50px;
+        position: fixed;
+        top: 5%;
+        left: 0.5%;
+        filter: contrast(0%) brightness(30%);
+    }
+
+    body{
+        scroll-behavior: smooth;  
+    }
+
+</style>
