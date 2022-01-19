@@ -150,7 +150,7 @@ button:hover span::before, button:hover span::after{
         color: #202121;
         letter-spacing: 0.5vw;
         font-family: 'Montserrat', sans-serif;
-        font-size: 2vw;
+        font-size: 3vw;
         font-weight: 700;
         animation: fade 2s 1 forwards linear;
     }
@@ -170,7 +170,7 @@ button:hover span::before, button:hover span::after{
         left: 28%;
         color: #202121;
         font-family: 'Montserrat', sans-serif;
-        font-size: 3vw;
+        font-size: 5vw;
         font-weight: 1000;
     }
   
