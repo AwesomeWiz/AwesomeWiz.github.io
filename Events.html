@@ -11,6 +11,8 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Rufina:wght@700&display=swap" rel="stylesheet">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" media="only screen and (max-width: 2560px) and (min-width:1280px)" href="eventsdesk.css">   
+        <link rel="stylesheet" media="only screen and (max-width: 450px) and (min-device-width:200px)" href="eventsmobile.css">
     </head>
 
     <body>
@@ -38,6 +40,14 @@
             <h1 class="youhead">You Selected</h1>
         <!---->
 
+        <!--Tick Marks-->
+        <h1 class="onetick">✔️ You have selected this</h1>
+        <h1 class="twotick">✔️ You have selected this</h1>
+        <h1 class="threetick">✔️ You have selected this</h1>
+        <h1 class="fourtick">✔️ You have selected this</h1>
+        <h1 class="fivetick">✔️ You have selected this</h1>
+        <h1 class="sixtick">✔️ You have selected this</h1>
+
 
         <script>
     
@@ -47,107 +57,4 @@
 
 </html>
 
-<style>
 
-.youselected{
-    position: fixed;
-    top: 25%;
-    left: 0;
-    width: 273px;
-    height: 100%;
-    border-radius: 5px;
-background: #FFFFFF;
-box-shadow: inset -19px 19px 42px #bababa,
-            inset 19px -19px 42px #ffffff;
-}
-.youhead {
-    color: #202121;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 30px;
-        font-weight: bolder;
-        position: fixed;
-        top: 27%;
-        left: 35px;
-}
-
-.racelogo{
-    width: 50px;
-    height: 50px;
-    position: absolute;
-    top: 15%;
-    left: 38%;
-}
-.relaylogo{
-    width: 70px;
-    height: 50px;
-    position: absolute;
-    top: 15%;
-    left: 46%;
-}
-.longjumplogo{
-    width: 50px;
-    height: 50px;
-    position: absolute;
-    top: 15%;
-    left: 55%;
-}
-.highjumplogo{
-    width: 70px;
-    height: 50px;
-    position: absolute;
-    top: 15%;
-    left: 63%;
-}
-.footballlogo{
-    width: 50px;
-    height: 50px;
-    position: absolute;
-    top: 15%;
-    left: 71%;
-}
-.basketballlogo{
-    width: 50px;
-    height: 50px;
-    position: absolute;
-    top: 15%;
-    left: 79%;
-}
-#zoom{
-    transform: scale(.8);
-    transition: .4s;
-}
-#zoom:hover{
-    transform: scale(1);
-}
-
-.line{
-    width: 80%;
-    height: 2px;
-    background: #202121;
-    position: absolute;
-    top: 25%;
-    right: 0;
-}
-
-.logotext{
-        color: #202121;
-        position: fixed;
-        top: 4%;
-        left: 5.5%;
-        font-family: 'Rufina', serif;
-    }
-
-    .logo{
-        width: 80px;
-        height: 50px;
-        position: fixed;
-        top: 5%;
-        left: 0.5%;
-        filter: contrast(0%) brightness(30%);
-    }
-
-    body{
-        scroll-behavior: smooth;  
-    }
-
-</style>
