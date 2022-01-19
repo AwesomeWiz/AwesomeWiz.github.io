@@ -167,7 +167,7 @@ button:hover span::before, button:hover span::after{
     .school{
         position: fixed;
         top: 20%;
-        left: 28%;
+        left: 25%;
         color: #202121;
         font-family: 'Montserrat', sans-serif;
         font-size: 5vw;
@@ -180,12 +180,12 @@ button:hover span::before, button:hover span::after{
         top: 4%;
         font-family: 'Rufina', serif;
         margin-left: 6.6vw;
-        font-size: 3vw;
+        font-size: 4vw;
     }
 
     .logo{
-        width: 9vw;
-        height: 5vw;
+        width: 10vw;
+        height: 6vw;
         position: fixed;
         top: 5%;
         left: 0.5%;
