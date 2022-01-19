@@ -14,10 +14,23 @@
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Rufina:wght@700&display=swap" rel="stylesheet">
 <link rel="stylesheet" media="only screen and (max-width: 2560px) and (min-width:1280px)" href="indexdesk.css">   
 <link rel="stylesheet" media="only screen and (max-width: 500px) and (min-width:200px)" href="indexmobile.css">
+<script>  
+	$(window).on('load', function () {  
+		$(".loading").fadeOut("slow");  
+   });  
+ </script> 
 </head>
    
 
     <body>
+
+<!--Loading Screen-->
+<div class="loading">
+	<img class="desktop" src="desktop.png" alt="desktop">
+	<img class="chrome" src="chrome.png" alt="chrome">
+	<p class="warning">For best experience use desktop and chrome</p>
+	</div>
+	<!---->
 
 <!--Background video-->
 <video autoplay muted loop id="myVideo">

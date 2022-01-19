@@ -1,0 +1,474 @@
+.eventhead{
+    color: #202121;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 6.36vw;
+    font-weight: 1000;
+    position: absolute;
+    top:20%;
+    left:4%;
+}
+
+.submitbtn {
+    position: absolute;
+    top:210%;
+    right: 5%;
+}
+
+.glass {
+    width: 50%;
+    height: 7vw;
+    position: fixed;
+    top: 21%;
+    right: 14.5%;
+    z-index: 99;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.final {
+    color: #202121;
+    font-family: 'Montserrat', sans-serif;
+    font-size:  5vw;
+    font-weight: 1000;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    display: none;
+    letter-spacing: 3px;
+}
+
+.me {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5vw;
+    color: #202121;
+    font-weight: 1500;
+    position: fixed;
+    bottom: 5%;
+    left: 23%;
+    display: none;
+}
+
+#race{
+    width: 42.47vw;
+    height: 42.47vw;
+    border-radius: 50px;
+background: linear-gradient(145deg, #f0f0f0, #cacaca);
+box-shadow:  20px 20px 60px #bebebe,
+             -20px -20px 60px #ffffff;
+position: absolute;
+top: 30%;
+left: 28%;
+word-wrap: break-word;
+border: solid 2px transparent;
+}
+.racesymbol{
+    width: 5.6vw;
+    height: 5.6vw;
+    position:relative;
+    top: 3%;
+    left: 5%;
+}
+.racehead{
+    color: #202121;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 4.5vw;
+    font-weight: 700;
+    position: relative;
+    top: -1%;
+    left: 5%;
+}
+.racepara{
+    color: #202121;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.17vw;
+    font-weight: 500;
+    position: relative;
+    top: 0%;
+    left: 5%;
+}
+.racebtn{
+    position: relative;
+    top: 0%;
+    left: 30%;
+}
+
+
+#relay{
+    width: 43.47vw;
+    height: 43.47vw;
+    border-radius: 50px;
+background: linear-gradient(145deg, #f0f0f0, #cacaca);
+box-shadow:  20px 20px 60px #bebebe,
+             -20px -20px 60px #ffffff;
+position: absolute;
+top: 60%;
+left: 28%;
+word-wrap: break-word;
+border: solid 2px transparent;
+}
+.relaysymbol{
+    width: 5.12vw;
+    height: 5.6vw;
+    position:relative;
+    top: 3%;
+    left: 5%;
+}
+.relayhead{
+    color: #202121;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 5vw;
+    font-weight: 700;
+    position: relative;
+    top: -1%;
+    left: 5%;
+}
+.relaypara{
+    color: #202121;
+    font-family: 'Montserrat', sans-serif;
+    font-size:  2.17vw;
+    font-weight: 500;
+    position: relative;
+    top: 0%;
+    left: 5%;
+}
+.relaybtn{
+    position: relative;
+    top: 0%;
+    left: 30%;
+}
+
+#longjump{
+    width: 43.47vw;
+    height: 43.47vw;
+    border-radius: 50px;
+background: linear-gradient(145deg, #f0f0f0, #cacaca);
+box-shadow:  20px 20px 60px #bebebe,
+             -20px -20px 60px #ffffff;
+position: absolute;
+top: 90%;
+left: 28%;
+word-wrap: break-word;
+border: solid 2px transparent;
+}
+.longjumpsymbol{
+    width: 5.6vw;
+    height: 5.6vw;
+    position:relative;
+    top: 3%;
+    left: 5%;
+}
+.longjumphead{
+    color: #202121;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 5vw;
+    font-weight: 700;
+    position: relative;
+    top: -1%;
+    left: 5%;
+}
+.longjumppara{
+    color: #202121;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.17vw;
+    font-weight: 500;
+    position: relative;
+    top: 0%;
+    left: 5%;
+}
+.longjumpbtn{
+    position: relative;
+    top: -2%;
+    left: 30%;
+}
+
+
+#highjump{
+    width: 43.47vw;
+    height: 43.47vw;
+    border-radius: 50px;
+background: linear-gradient(145deg, #f0f0f0, #cacaca);
+box-shadow:  20px 20px 60px #bebebe,
+             -20px -20px 60px #ffffff;
+position: absolute;
+top: 120%;
+left: 28%;
+word-wrap: break-word;
+border: solid 2px transparent;
+}
+.highjumpsymbol{
+    width:  5.12vw;
+    height: 5.6vw;
+    position:relative;
+    top: 3%;
+    left: 5%;
+}
+.highjumphead{
+    color: #202121;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 5vw;
+    font-weight: 700;
+    position: relative;
+    top: -1%;
+    left: 5%;
+}
+.highjumppara{
+    color: #202121;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.17vw;
+    font-weight: 500;
+    position: relative;
+    top: 0%;
+    left: 5%;
+}
+.highjumpbtn{
+    position: relative;
+    top: -2%;
+    left: 30%;
+}
+
+#football{
+    width: 43.47vw;
+    height: 43.47vw;
+    border-radius: 50px;
+background: linear-gradient(145deg, #f0f0f0, #cacaca);
+box-shadow:  20px 20px 60px #bebebe,
+             -20px -20px 60px #ffffff;
+position: absolute;
+top: 150%;
+left: 28%;
+word-wrap: break-word;
+border: solid 2px transparent;
+}
+.footballsymbol{
+    width: 5.6vw;
+    height: 5.6vw;
+    position:relative;
+    top: 3%;
+    left: 5%;
+}
+.footballhead{
+    color: #202121;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 5vw;
+    font-weight: 700;
+    position: relative;
+    top: -1%;
+    left: 5%;
+}
+.footballpara{
+    color: #202121;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.17vw;
+    font-weight: 500;
+    position: relative;
+    top: 0%;
+    left: 5%;
+}
+.footballbtn{
+    position: relative;
+    top: -2%;
+    left: 30%;
+}
+
+#basketball{
+    width: 43.47vw;
+    height: 43.47vw;
+    border-radius: 50px;
+background: linear-gradient(145deg, #f0f0f0, #cacaca);
+box-shadow:  20px 20px 60px #bebebe,
+             -20px -20px 60px #ffffff;
+position: absolute;
+top: 180%;
+left: 28%;
+word-wrap: break-word;
+border: solid 2px transparent;
+}
+.basketballsymbol{
+    width: 5.6vw;
+    height: 5.6vw;
+    position:relative;
+    top: 3%;
+    left: 5%;
+}
+.basketballhead{
+    color: #202121;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 5vw;
+    font-weight: 700;
+    position: relative;
+    top: -1%;
+    left: 5%;
+}
+.basketballpara{
+    color: #202121;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.17vw;
+    font-weight: 500;
+    position: relative;
+    top: 0%;
+    left: 5%;
+}
+.basketballbtn{
+    position: relative;
+    top: -2%;
+    left: 30%;
+}
+
+#participate{
+    background-color: transparent;
+    color: #202121;
+    border: none;
+    letter-spacing: 2px;
+    padding: 1.09vw 2.34vw;
+    font-family: 'Oswald', sans-serif;
+    font-size:  3.36vw;
+    font-weight: bold;
+    cursor: pointer;
+}
+button::before, button::after{
+content:"";
+width: 0;
+height: 0.063rem;
+position: absolute;
+transition: all 0.2s linear;
+background: #202121;
+}
+button:hover::before, button:hover::after{
+width: 100%;
+}
+span::before, span::after{
+content:"";
+width:0.063rem;
+height:0;
+position: absolute;
+transition: all 0.2s linear;
+background: #202121;
+}
+button:hover span::before, button:hover span::after{
+height: 100%;
+}
+#participate::before, #participate::after{
+transition-delay: 0s;
+}
+#participate span::before, #participate span::after{
+transition-delay: 0.2s;
+}
+#participate::before{
+right: 0;
+top: 0;
+}
+#participate::after{
+left: 0;
+bottom: 0;
+}
+#participate span::before{
+left: 0;
+top: 0;
+}
+#participate span::after{
+right: 0;
+bottom: 0;
+}
+#participate:hover::before, #participate:hover::after{
+transition-delay: 0.2s;
+}
+#participate:hover span::before, #participate:hover span::after{
+transition-delay: 0s;
+}
+
+
+.racelogo{
+    width: 5.6vw;
+    height: 5.6vw;
+    position: fixed;
+    top: 21.5%;
+    left: 38%;
+    z-index: 100;
+}
+.relaylogo{
+    width:  5.12vw;
+    height: 5.6vw;
+    position: fixed;
+    top: 21.5%;
+    left: 46%;
+    z-index: 100;
+}
+.longjumplogo{
+    width: 5.6vw;
+    height: 5.6vw;
+    position: fixed;
+    top: 21.5%;
+    left: 55%;
+    z-index: 100;
+}
+.highjumplogo{
+    width:  5.12vw;
+    height: 5.6vw;
+    position: fixed;
+    top: 21.5%;
+    left: 63%;
+    z-index: 100;
+}
+.footballlogo{
+    width: 5.6vw;
+    height: 5.6vw;
+    position: fixed;
+    top: 21.5%;
+    left: 71%;
+    z-index: 100;
+}
+.basketballlogo{
+    width: 5.6vw;
+    height: 5.6vw;
+    position: fixed;
+    top: 21.5%;
+    left: 79%;
+    z-index: 100;
+}
+#zoom{
+    transform: scale(.8);
+    transition: .4s;
+}
+#zoom:hover{
+    transform: scale(1);
+}
+
+.line{
+    width: 70%;
+    height:  0.14vw;
+    background: #202121;
+    position: absolute;
+    top: 25%;
+    right: 0;
+    z-index: 100;
+}
+
+.logotext{
+        color: #202121;
+        position: fixed;
+        top: 4%;
+        left: 13%;
+        font-family: 'Rufina', serif;
+    }
+
+    .logo{
+        width: 15.85vw;
+        height: 11.6vw;
+        position: fixed;
+        top: 5%;
+        left: 0.5%;
+        filter: contrast(0%) brightness(30%);
+    }
+
+    body{
+        background: #e0e0e0;
+    }
+    html{
+        scroll-behavior: smooth;
+    }

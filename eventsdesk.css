@@ -8,6 +8,21 @@
     left:4%;
 }
 
+.glass {
+    width: 50%;
+    height: 5.125rem;
+    position: fixed;
+    top: 12%;
+    right: 14.5%;
+    z-index: 99;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
 .submitbtn {
     position: absolute;
     top:240%;
