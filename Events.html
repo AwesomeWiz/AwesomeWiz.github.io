@@ -8,11 +8,12 @@
         <title>Svaasthy</title>
         <link rel="icon" type="image/x-icon" href="logo.png">
         <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Rufina:wght@700&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Oswald&family=Rufina:wght@700&display=swap" rel="stylesheet">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" media="only screen and (max-width: 2560px) and (min-width:1000px)" href="indexdesk.css">   
-<link rel="stylesheet" media="only screen and (max-width: 450px) and (min-device-width:200px)" href="indexmobile.css">
+        <link rel="stylesheet" media="only screen and (max-width: 2560px) and (min-width:1280px)" href="eventsdesk.css">   
+<link rel="stylesheet" media="only screen and (max-width: 500px) and (min-width:200px)" href="eventsmobile.css">
     </head>
 
     <body>
@@ -23,7 +24,7 @@
         <!---->
 
         <!--Line-->
-        <div class="line"></div>
+        <div id="lineid" class="line"></div>
         <!---->
 
         <!--Mini nav-->
@@ -35,20 +36,136 @@
         <a href="#basketball"><img id="zoom" class="basketballlogo" src="basketball.png" alt="basketball"></a>
         <!---->
 
-        <!--You Selected-->
-        <div class="youselected"></div>
-            <h1 class="youhead">You Selected</h1>
+        <!--Events head-->
+        <h1 id="eventid" class="eventhead">Events</h1>
         <!---->
 
- 
+        <!--Sports box-->
 
+        <!--Race-->
+        <div id="race">
+        <img class="racesymbol" src="race.png" alt="race">
+        <h1 class="racehead">Running race</h1>
+        <p class="racepara">Running races are contests to determine which of the competitors are able to run a certain distance in the shortest time.</p>
+        <button onclick="selectedrace()" class="racebtn" id="participate">Participate</button>
+    </div>
+        <!---->
 
+        <!--Relay-->
+        <div id="relay">
+            <img class="relaysymbol" src="relay.png" alt="relay">
+            <h1 class="relayhead">Relay race</h1>
+            <p class="relaypara">Relay, a track-and-field sport consisting of a set number of stages (legs), each leg run by a different member of a team.</p>
+            <button onclick="selectedrelay()" class="relaybtn" id="participate">Participate</button>
+        </div>
+        <!---->
+
+        <!--Long Jump-->
+        <div id="longjump">
+            <img class="longjumpsymbol" src="longjump.png" alt="longjump">
+            <h1 class="longjumphead">Long Jump</h1>
+            <p class="longjumppara">The long jump is a track and field event in which athletes combine speed, strength and agility in an attempt to leap the farthest from a takeoff point.</p>
+            <button onclick="selectedlongjump()" class="longjumpbtn" id="participate">Participate</button>
+        </div>
+        <!---->
+
+             <!--High Jump-->
+             <div id="highjump">
+                <img class="highjumpsymbol" src="highjump.png" alt="highjump">
+                <h1 class="highjumphead">High Jump</h1>
+                <p class="highjumppara">The high jump is a track and field event in which competitors must jump unaided over a horizontal bar placed at measured heights without dislodging it.</p>
+                <button onclick="selectedhighjump()" class="highjumpbtn" id="participate">Participate</button>
+            </div>
+            <!---->
+
+                 <!--Football-->
+             <div id="football">
+                <img class="footballsymbol" src="football.png" alt="football">
+                <h1 class="footballhead">Football</h1>
+                <p class="footballpara">Football or soccer, is a team sport played with a spherical ball between two teams of 11 players.</p>
+                <button onclick="selectedfootball()" class="footballbtn" id="participate">Participate</button>
+            </div>
+            <!---->
+
+                    <!--Basketball-->
+                    <div id="basketball">
+                        <img class="basketballsymbol" src="basketball.png" alt="basketball">
+                        <h1 class="basketballhead">Basketball</h1>
+                        <p class="basketballpara">Basketball, a game played between two teams of five players each on a rectangular court. Each team tries to score by tossing the ball through the opponent's goal.</p>
+                        <button onclick="selectedbasketball()" class="basketballbtn" id="participate">Participate</button>
+                    </div>
+                    <!---->
+<!---->
+
+<!--Submit-->
+<button onclick="submit()" class="submitbtn" id="participate"><span>Submit</span></button>
+<!---->
+
+<!--Final Message-->
+<p class="final">Thank You! You have successfully registered into Svaasthy 2k22. Your selection trial will commence on 15th February 2022 from 9:00am to 3:00pm. Good Luck!</p>
+<h1 class="me">Created by Abhishikth S Mattom</h1>
         <script>
+
+function selectedrace() {
+    document.getElementsByClassName("racebtn")[0].innerHTML="Selected";
+ document.getElementById("race").style.borderColor="green";
     
+}
+function selectedrelay() {
+    document.getElementsByClassName("relaybtn")[0].innerHTML="Selected";
+ document.getElementById("relay").style.borderColor="green";
+    
+}
+function selectedlongjump() {
+    document.getElementsByClassName("longjumpbtn")[0].innerHTML="Selected";
+ document.getElementById("longjump").style.borderColor="green";
+    
+}
+function selectedhighjump() {
+    document.getElementsByClassName("highjumpbtn")[0].innerHTML="Selected";
+ document.getElementById("highjump").style.borderColor="green";
+    
+}
+function selectedfootball() {
+    document.getElementsByClassName("footballbtn")[0].innerHTML="Selected";
+ document.getElementById("football").style.borderColor="green";
+    
+}
+function selectedbasketball() {
+    document.getElementsByClassName("basketballbtn")[0].innerHTML="Selected";
+ document.getElementById("basketball").style.borderColor="green";
+    
+}
+
+function submit() {
+    document.getElementById("lineid").style.display="none";
+    document.getElementById("eventid").style.display="none";
+    document.getElementById("race").style.display="none";
+    document.getElementById("relay").style.display="none";
+    document.getElementById("longjump").style.display="none";
+    document.getElementById("highjump").style.display="none";
+    document.getElementById("football").style.display="none";
+    document.getElementById("basketball").style.display="none";
+    document.getElementById("participate").style.display="none";
+    document.getElementsByClassName("racelogo")[0].style.display="none";
+    document.getElementsByClassName("relaylogo")[0].style.display="none";
+    document.getElementsByClassName("longjumplogo")[0].style.display="none";
+    document.getElementsByClassName("highjumplogo")[0].style.display="none";
+    document.getElementsByClassName("footballlogo")[0].style.display="none";
+    document.getElementsByClassName("basketballlogo")[0].style.display="none";
+    document.getElementsByClassName("submitbtn")[0].style.display="none";
+    document.getElementsByClassName("final")[0].style.display="block";
+    document.getElementsByClassName("me")[0].style.display="block";
+}
         </script>
 
     </body>
 
 </html>
+
+<style>
+
+
+</style>
 
 
