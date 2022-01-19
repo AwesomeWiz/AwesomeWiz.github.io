@@ -77,7 +77,7 @@ border: 0.063rem solid rgba(255, 255, 255, 0.3);
     border-right: none;
   }
 
-  a.register{
+  a{
     background-color: transparent;
     color: #202121;
     border: none;
