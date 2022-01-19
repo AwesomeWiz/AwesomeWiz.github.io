@@ -4,7 +4,7 @@
     left: 0;
     width: 17.063rem;
     height: 100%;
-
+    border-radius: 0.313rem;
 background: #e0e0e0;
 box-shadow: inset 27px 27px 55px #bebebe,
             inset -27px -27px 55px #ffffff;
@@ -19,22 +19,7 @@ box-shadow: inset 27px 27px 55px #bebebe,
         margin-left: 2.188rem;
 }
 
-.onetick {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 1.25rem;
-    color: #202121;
-    position: relative;
-    top: 15%;
-    margin-left: 28.011rem;
-}
-.twotick {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 1.25rem;
-    color: #202121;
-    position: relative;
-    top: 15%;
-    margin-left: 450.064rem;
-}
+
 
 .racelogo{
     width: 50px;
