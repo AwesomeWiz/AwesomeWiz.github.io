@@ -19,7 +19,22 @@ box-shadow: inset 27px 27px 55px #bebebe,
         margin-left: 2.188rem;
 }
 
-
+.onetick {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.625rem;
+    color: #202121;
+    position: relative;
+    top: 30%;
+    margin-left: 28.011rem;
+}
+.twotick {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.625rem;
+    color: #202121;
+    position: relative;
+    top:30%;
+    margin-left: 450.064rem;
+}
 
 .racelogo{
     width: 50px;
