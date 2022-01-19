@@ -455,6 +455,7 @@ transition-delay: 0s;
         top: 4%;
         left: 5.5%;
         font-family: 'Rufina', serif;
+        z-index: 100;
     }
 
     .logo{
