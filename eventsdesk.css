@@ -443,7 +443,7 @@ transition-delay: 0s;
     width: 80%;
     height: 0.125rem;
     background: #202121;
-    position: fixed;
+    position: absolute;
     top: 25%;
     right: 0;
     z-index: 100;
