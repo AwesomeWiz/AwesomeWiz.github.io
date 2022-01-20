@@ -2,7 +2,7 @@
 Sports Day Registration Created By Abhishikth S Mattom
 
 Svaasthy is the annual Sports Day celebration of KE Carmel Central School, Muhamma.
-For year 2022 school is giving oppurtunity of online registration to the events as a part of digitizing school.
+For year 2022 school is giving the oppurtunity of online registration to the events as a part of digitizing school.
 
 This is a demo concept created by me.
 
