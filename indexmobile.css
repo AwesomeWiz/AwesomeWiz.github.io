@@ -118,7 +118,7 @@ a {
     .register{
         background-color: transparent;
         color: #202121;
-        border: none;
+        border: solid 2px #202121;
         padding:  1.098vw 2.34vw;
         font-family: 'Rufina', serif;
         font-size: 4vw;
