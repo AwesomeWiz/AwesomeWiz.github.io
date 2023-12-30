@@ -1,13 +1,14 @@
 # AwesomeWiz.github.io
-Sports Day Registration Created By Abhishikth S Mattom
+**Sports Day Registration**
 
-Svaasthy(Hindi word for fitness) is the annual Sports Day celebration of KE Carmel Central School, Muhamma.
-For year 2022 school is giving the oppurtunity of online registration to the events as a part of digitizing school.
+**Svaasthy**(Hindi word for fitness) is the annual Sports Day celebration of KE Carmel Central School, Muhamma.
+For the year 2022 school is giving the opportunity of online registration to the events as a part of digitizing the school.
 
 This is a demo concept created by me.
 
-All details entered will neither by acquired by me nor anyone.
+All details entered will neither be acquired by me nor anyone else.
 
-Website link: awesomewiz.github.io
+Won **GEMS2022 Web-Design Competition 2nd prize**
 
-Happy Browsing ☺
+Website link - [Svaasthy](https://awesomewiz.github.io/)
+
