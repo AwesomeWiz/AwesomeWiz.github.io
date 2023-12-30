@@ -1,4 +1,4 @@
-# AwesomeWiz.github.io
+
 **Sports Day Registration**
 
 **Svaasthy**(Hindi word for fitness) is the annual Sports Day celebration of KE Carmel Central School, Muhamma.
